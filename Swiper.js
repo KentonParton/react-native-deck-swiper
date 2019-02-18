@@ -109,7 +109,7 @@ class Swiper extends Component {
   }
 
   initializeCardStyle = () => {
-    this.forceUpdate()
+    // this.forceUpdate() // Kenton
     Dimensions.addEventListener('change', () => {
       this.forceUpdate()
     })
